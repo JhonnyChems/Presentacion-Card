@@ -1,0 +1,111 @@
+body{
+    background-image: url(https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?q=80&w=2100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.Card{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.336)) , url(https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    padding: 90px 45px;
+    margin: auto;
+    width: 650px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6%;
+}
+
+div#Profile{
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(https://scontent.fbog2-4.fna.fbcdn.net/v/t39.30808-6/451833555_3741912996056951_2369248519898103594_n.jpg?stp=dst-jpg_p206x206&_nc_cat=101&ccb=1-7&_nc_sid=7a06f5&_nc_ohc=Mwxn1vAxJZAQ7kNvgGNr0CU&_nc_ht=scontent.fbog2-4.fna&oh=00_AYA0dJoleuzYYPV8XMi2W16VlckgIiZr1dybUXkSFE_QRg&oe=66A9EC8B);
+    background-size: cover;
+}
+
+div#title{
+    text-align: center;
+    font-family:'Arial Narrow Bold';
+    color: white;
+    font-weight: 900;
+    letter-spacing: 8px;
+}
+
+div#Lorem{
+    text-align: justify;
+    color: rgb(17, 16, 16);
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'italic';
+    line-height: 25px;
+    font-weight: 520;
+}
+
+div#personaldetails{
+    background-color: rgba(145, 88, 81, 0.281);
+    border-radius: 10px ;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Times New Roman','Cursiva';
+    font-weight: 520;
+    background: rgba(5, 7, 12, 0.25);
+}
+
+.button{
+    margin-top: 40px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    background-image: linear-gradient(150deg, #9769c7d6, #fd0000bd);
+    border-radius: 8px;
+    color: white;
+    font-family: 'fantasy';
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.5 ease;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(86, 204, 204, 0.849);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.);
+    border-radius: 10px;
+}
+
+.container a{
+    padding: 10px;
+    font-size: 30px;
+    transition: all 500ms;
+}
+
+.Facebook{
+    color: rgb(28, 80, 158);
+}
+
+.Instagram{
+    color: rgb(238, 49, 175);
+}
+
+.linkedin{
+    color: rgb(24, 95, 201);
+}
+
+.Github{
+    color: black;
+}
+
+.container a:hover{
+    transform: scale(1.5);
+}
